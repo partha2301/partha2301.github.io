@@ -1,3 +1,3 @@
 function openWebsite() {
-    window.open('https://www.google.com', '_blank');
+    window.open('CV Main.pdf', '_blank');
 }
