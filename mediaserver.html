@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Home Media Server Project</title>
+    <link rel="stylesheet" href="hmsSytle.css">
+</head>
+
+<body>
+    <div class="heading">
+
+        <h2>
+            Home Media Server(still working on the design and layout)
+        </h2>
+    </div>
+    <div class="description">
+        <h3>
+            Project Overview
+        </h3>
+        <p>
+        I built a personal home media server using a Raspberry Pi 4, OpenMediaVault (OMV), Plex, and Kodi. The
+        goal was to create an efficient, low-cost media solution that allows me to store, organize, and stream
+        my entire media library across different devices on my network. This setup is perfect for on-demand
+        streaming at home or remotely when I need it.
+        </p>
+        <p>
+        <h3>
+            What I used
+        </h3>
+        <ul>
+            <li>Hardware</li>
+            <ul>
+                <li>Raspberry PI 4 Model 4 (4GB RAM)</li>
+                <li>32GB Micro SD card for the Rapbian Operating System</li>
+                <li>512GB External Hard Disk for media storage</li>
+                <li>15W power subbply</li>
+            </ul>
+            <li>Software</li>
+            <ul>
+
+                <li>Raspberry PI OS Lite</li>
+                <li>OpenMediaVault(OMV)</li>
+                <li>Plex Media Server for managing and streaming media</li>
+                <li>Kodi for local playback</li>
+                <li>Docker and Portainer for contained service management</li>
+            </ul>
+        </ul>
+        </p>
+        <p>
+        <h3>
+            What I did
+        </h3>
+        <ul>
+            <li>
+                Storage Configuration
+            </li>
+            <p>
+                I formatted the external hard drive with ext4 and set up shared folders using OMV. This lets me
+                access my media across all devices on my network, no matter where I am in the house.
+            </p>
+            <li>Media Streaming Setup</li>
+            <p>
+                I installed Plex on the Raspberry Pi using Docker, making it easier to update and manage. Plex
+                automatically organizes my media files and makes them accessible for streaming on any device. I also
+                set up secure user access for safe, remote streaming.
+            </p>
+            <li>
+                Local Playback with Kodi
+            </li>
+            <p>
+                For local media playback, I installed Kodi on the Raspberry Pi. I customized its interface with
+                plugins and themes to enhance the viewing experience. It’s great for watching movies and shows
+                directly from the Pi without needing an additional streaming device.
+            </p>
+        </ul>
+        </p>
+        <p>
+        <h3>Skills I gained</h3>
+        <ul>
+            <li>Linux System Administration</li>
+            <p>
+                I became more comfortable using the command line, managing file systems, and setting up services on
+                a Debian-based OS.
+            </p>
+            <li>Networking
+                <p>
+                    I got hands-on experience with network configurations, including setting static IPs and managing
+                    SMB/CIFS file sharing between devices.
+                </p>
+            </li>
+            <li>
+                Containerization
+                <p>
+                    I learned how to deploy and manage Docker containers, which made installing Plex and other
+                    services more efficient. I also used Portainer for easy container management with a graphical
+                    interface.
+                </p>
+            </li>
+            <li>
+                Media Management
+                <p>
+                    I learned how to manage media libraries, configure Plex for automatic scans, and set up Kodi to
+                    seamlessly play media files from networked storage.
+                </p>
+            </li>
+        </ul>
+        <h3>The Result</h3>
+        <p>
+            The project was a success! I now have a fully functional media server that lets me stream and enjoy my
+            movies and music from anywhere in my home. It's energy-efficient and modular, and I can easily scale it in
+            the future by adding more services like Nextcloud or Pi-hole. It was a great learning experience that helped
+            me improve my skills in Linux, networking, and containerization.
+        </p>
+    </div>
+</body>
+
+</html>
